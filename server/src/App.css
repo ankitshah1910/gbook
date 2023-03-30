@@ -1,0 +1,80 @@
+/* Search form styles */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+input[type='text'],
+select {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1.2rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Search results styles */
+
+table {
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  vertical-align: top;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.pagination button:hover:not([disabled]) {
+  background-color: #3498db;
+  color: #fff;
+}
